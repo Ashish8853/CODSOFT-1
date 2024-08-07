@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home{
+    background-image: url(/img/bg4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    backdrop-filter: blur(3px);
+}
+.nav a{
+    border: 1px solid green;
+    text-decoration: none;
+    color: #fff;
+
+    font-size: 1.4rem;
+    font-weight: 10;
+    transition: 0.5s ease;
+}
+.nav a:hover{
+  background-color: green;
+}
+#home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.center{
+    width: 500px;
+    backdrop-filter: blur(2px);
+}
+#home .center p{
+    color: green;
+    font-size: 2rem;
+}
+.button{
+    backdrop-filter: blur(2px);
+    margin-top: 20px;
+    width: 20vh;
+    height: 5vh;
+    text-align: center;
+border: 1px solid green;
+}
+.button:hover{
+    transition: 1s ease;
+    background-color: green;
+
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    height: 3vh;
+
+
+}
+#blog{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.blogupper{
+    width: 70%;
+    height: 50vh;
+
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.blogcenter{
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    border: 1px solid green;
+}
+.blogcenter .blogcenterleft{
+    width: 46%;
+    height: 20vh;
+    text-align: start;
+}
+.line{
+    height: 30vh;
+    width: 1px;
+    background-color: green;
+}
+.blogcenter .blogcenterright{
+    width: 46%;
+    height: 20vh;
+    text-align: right;
+}
+.blogcenterleft:hover,
+.blogcenterright:hover{
+    background-color: green;
+}
+.photo{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.phot img{
+    width: 200px;
+}
+#contact{
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lower{
+    height: 30vh;
+    width: 40%;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.contact input{
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 6vh;
+    border: none;
+}
+.contact label{
+    color: green;
+}
+.contact button{
+    height: 5vh;
+    color: rgb(255, 255, 255);
+    background-color: green;
+    border: none;
+}
+.footer{
+    margin-top: 40vh;
+    color: green;
+}
+.footer h1{
+    text-align: center;
+    color: yellow;
+}

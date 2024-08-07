@@ -1,0 +1,49 @@
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+}
+.contact-container{
+    border: 1px solid rgba(10, 127, 216);
+    width: 60%;
+    height: 70vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.CV a{
+   text-decoration: none;
+   font-size: 4rem;
+   color: rgba(10, 127, 216);
+   border-bottom: 1px solid green;
+}
+.contact-input{
+    display: flex;
+    flex-direction: column;
+    height: 50hv;
+    width: 50%;
+    margin-top: 10px;
+}
+.contact-input span{
+    color: rgba(10, 127, 216);
+    text-align: start;
+}
+.contact-input input{
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    color: rgba(10, 127, 216);
+    background-color: rgb(47, 45, 45);
+}
+.contact-input button{
+    height: 5vh;
+    background-color: rgba(10, 127, 216);;
+    cursor: pointer;
+    margin-top: 10px;
+}
+textarea{
+    background-color: transparent;
+}
